@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
 *main - header function
-*return - must return 0
+*return - 0
 */
 int main(void)
 {
