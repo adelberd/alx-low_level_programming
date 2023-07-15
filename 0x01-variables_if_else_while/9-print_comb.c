@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
-* main - main block function, task 9 ALX
+* main - main block function
 * Return: 0
 */
 
@@ -12,7 +12,7 @@ int main(void)
 	for (a = 0; a < 10; a++)
 	{
 		putchar(48 + a);
-		if (a != 9) 
+		if (a != 9)
 		{
 			putchar(',');
 			putchar(' ');
