@@ -4,7 +4,7 @@
 * Return: 0
 */
 
-int main()
+int main(void)
 {
 	char _putchar[] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
 	int i;
