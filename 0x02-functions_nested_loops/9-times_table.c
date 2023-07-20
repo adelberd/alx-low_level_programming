@@ -6,7 +6,8 @@
 *
 */
 
-void times_time(void)
+void times_table(void)
+>>>>>>> 5a9df6053b7c509798a72f457541e27099d5d894
 {
 	int i, j, k;
 
