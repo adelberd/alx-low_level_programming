@@ -24,7 +24,7 @@ int get_prime_divisor(int num, int i)
 * Return: 1 if its a prime otherwise return 0
 */
 
-int is_prime_number(int n);
+int is_prime_number(int n)
 {
 	if (n <= 1)
 		return (0);
