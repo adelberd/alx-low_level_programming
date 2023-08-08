@@ -15,20 +15,19 @@ char *_strdup(char *str)
 	for (i = 0; str[i] != '\0'; i++)
 		len++;
 	/* count the terminating character */
-	len++;
+	len = len + 1;
 
 	if (str == NULL)
 		return (NULL);
 
 	ptr = malloc(sizeof(char) * len);
 
-	if (ptr != NULL)
-	{
-		for (j = 0; str[j]; j++)
-			ptr[j] = str[j];
+	if (ptr == NULL)
+		return (NULL);
 
-		ptr[len] = '\0';
-		return (ptr);
-	}
-	return (NULL);
+	for (j = 0; str[j]; j++)
+		ptr[j] = str[j];
+
+	ptr[j + 1] = '\0';
+	return (ptr);
 }
