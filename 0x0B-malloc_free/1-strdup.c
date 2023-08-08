@@ -12,6 +12,7 @@ char *_strdup(char *str)
 	int i, j, len;
 	char *ptr;
 
+	len = 0;
 	for (i = 0; str[i] != '\0'; i++)
 		len++;
 	/* count the terminating character */
